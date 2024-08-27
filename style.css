@@ -1,0 +1,29 @@
+/* body{
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 1fr 522px 1fr;
+	grid-template-columns: 1fr 384px 1fr;
+	background-color: #f4d04e;
+}
+
+.container{
+	grid-row: 2/3;
+	grid-column: 2/3;
+	} */
+	
+	body{
+		height: 100vh;
+		margin: 0;
+		display: flex;
+		background-color: #f4d04e;
+	}
+	
+	.container{
+		margin: auto;
+		max-width: 384px;
+		min-width: 327px;
+		padding: 24px;
+		background-color: #ffffff;
+		border-radius: 20px;
+		box-shadow: 8px 8px #000000;
+}
